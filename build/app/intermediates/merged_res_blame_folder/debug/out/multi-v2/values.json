@@ -21,6 +21,25 @@
                     }
                 },
                 {
+                    "source": "/home/xboy/Documents/GitHub/Notility_app/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1432,1436",
+                        "startColumns": "4,4",
+                        "startOffsets": "92963,93144",
+                        "endLines": "1435,1438",
+                        "endColumns": "12,12",
+                        "endOffsets": "93139,93308"
+                    }
+                },
+                {
                     "source": "/home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -179,25 +198,6 @@
                         "startOffsets": "18182",
                         "endColumns": "42",
                         "endOffsets": "18220"
-                    }
-                },
-                {
-                    "source": "/home/xboy/Documents/GitHub/notility/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1432,1436",
-                        "startColumns": "4,4",
-                        "startOffsets": "92963,93144",
-                        "endLines": "1435,1438",
-                        "endColumns": "12,12",
-                        "endOffsets": "93139,93308"
                     }
                 },
                 {

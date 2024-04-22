@@ -4,7 +4,7 @@
             "outputFile": "com.example.notility.app-mergeDebugResources-28:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/xboy/Documents/GitHub/notility/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/xboy/Documents/GitHub/Notility_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -1,0 +1,1 @@
+ /home/xboy/Documents/GitHub/Notility_app/.dart_tool/flutter_build/a56413c20f25a39abaaf77f6ccb8f053/native_assets.yaml: 
