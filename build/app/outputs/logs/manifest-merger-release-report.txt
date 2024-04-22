@@ -1,0 +1,524 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:7:5-37:19
+MERGED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/xboy/.gradle/caches/transforms-3/d5f462de33805ac3a7b69216f9aa9ab5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/xboy/.gradle/caches/transforms-3/d5f462de33805ac3a7b69216f9aa9ab5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/xboy/.gradle/caches/transforms-3/86085b3534d64902578f290e976b4bbf/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/xboy/.gradle/caches/transforms-3/86085b3534d64902578f290e976b4bbf/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/xboy/.gradle/caches/transforms-3/f5aa2e10f33b9bd4a4679f70cae23246/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/xboy/.gradle/caches/transforms-3/f5aa2e10f33b9bd4a4679f70cae23246/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.2.0] /home/xboy/.gradle/caches/transforms-3/ec582f21c763e2c0f2f37f78d814b5e7/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] /home/xboy/.gradle/caches/transforms-3/ec582f21c763e2c0f2f37f78d814b5e7/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/xboy/.gradle/caches/transforms-3/3cc290559c7677786244db4663b1e427/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/xboy/.gradle/caches/transforms-3/3cc290559c7677786244db4663b1e427/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/xboy/.gradle/caches/transforms-3/e5b61f5d94735c005eb0a9e6af99682d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/xboy/.gradle/caches/transforms-3/e5b61f5d94735c005eb0a9e6af99682d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:8:9-33
+	android:icon
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:10:9-45
+	android:name
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:9:9-42
+manifest
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [:shared_preferences_android] /home/xboy/Documents/GitHub/notility/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:audioplayers_android] /home/xboy/Documents/GitHub/notility/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_keyboard_visibility] /home/xboy/Documents/GitHub/notility/build/flutter_keyboard_visibility/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:record_android] /home/xboy/Documents/GitHub/notility/build/record_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:path_provider_android] /home/xboy/Documents/GitHub/notility/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_android] /home/xboy/Documents/GitHub/notility/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/b999d05729379b348abd2dada5d1bd76/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/xboy/.gradle/caches/transforms-3/54098c0380bcade23ae8c96a757d3b55/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/xboy/.gradle/caches/transforms-3/966df7c0b288b4976f850b45a0735758/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/xboy/.gradle/caches/transforms-3/52da01b2268950db87a3d52f86ea7035/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /home/xboy/.gradle/caches/transforms-3/86063d7e6476c13a21bffa0628f6e7f2/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/xboy/.gradle/caches/transforms-3/d5f462de33805ac3a7b69216f9aa9ab5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/xboy/.gradle/caches/transforms-3/86085b3534d64902578f290e976b4bbf/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/xboy/.gradle/caches/transforms-3/f5aa2e10f33b9bd4a4679f70cae23246/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.play:integrity:1.2.0] /home/xboy/.gradle/caches/transforms-3/ec582f21c763e2c0f2f37f78d814b5e7/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/xboy/.gradle/caches/transforms-3/3cc290559c7677786244db4663b1e427/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] /home/xboy/.gradle/caches/transforms-3/3d6d97b8af2f97d4a598d5f956931a22/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/xboy/.gradle/caches/transforms-3/0631fe25a93a794f273dc1648a944417/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] /home/xboy/.gradle/caches/transforms-3/5109fcd8da603131ee782c838d11c457/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/xboy/.gradle/caches/transforms-3/392f7c6268c994cce6e5cacbe51a7e13/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/xboy/.gradle/caches/transforms-3/b21569f122c02709b4d312a6d2b775a7/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/xboy/.gradle/caches/transforms-3/4e0998490bfeee64800d29e2957926eb/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/xboy/.gradle/caches/transforms-3/095eb498852f0f31d7211c62de6fd725/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.browser:browser:1.4.0] /home/xboy/.gradle/caches/transforms-3/4d76aadac07397abe3a7d63176bb21f6/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/xboy/.gradle/caches/transforms-3/39930a57091edb5efb0ea35d4233086b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/xboy/.gradle/caches/transforms-3/2a84455f44d31c826caef220da61ce14/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/xboy/.gradle/caches/transforms-3/a25ab92955628d86995c8095232aaa09/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/xboy/.gradle/caches/transforms-3/e47695ac57789e10abd316f8151b7c67/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/xboy/.gradle/caches/transforms-3/b5bdd922a02fc8982209adf842c51542/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/xboy/.gradle/caches/transforms-3/728c6a961c63d12a7a6e16b736105c6c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/xboy/.gradle/caches/transforms-3/9b5f88af45cb83e7ad5203149b4cee0f/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/xboy/.gradle/caches/transforms-3/bd67e855f9810b5dd5627987c33e7264/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/xboy/.gradle/caches/transforms-3/85d8b20007a85e9f5bef2a16eb6a1455/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/xboy/.gradle/caches/transforms-3/d7c9e2de33d132d69552b2d08dc157ef/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /home/xboy/.gradle/caches/transforms-3/33ca94451157706af9868a4abfa37ecf/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/xboy/.gradle/caches/transforms-3/e5b61f5d94735c005eb0a9e6af99682d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/xboy/.gradle/caches/transforms-3/04fb613c2c1d9d40abe25b96a5c20489/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/xboy/.gradle/caches/transforms-3/a8b5a37814da5dbb437f7d9cb0c990bf/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/xboy/.gradle/caches/transforms-3/439ba954fd6d4c1ef49aa565963f6683/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/xboy/.gradle/caches/transforms-3/e327a7bf23300b5da1f8e3a37d812227/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+	package
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:2:5-71
+MERGED from [:record_android] /home/xboy/Documents/GitHub/notility/build/record_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-71
+MERGED from [:record_android] /home/xboy/Documents/GitHub/notility/build/record_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:2:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:4:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:6:22-78
+queries
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:43:5-48:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:44:9-47:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:45:21-70
+data
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:46:13-50
+	android:mimeType
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:46:19-48
+uses-sdk
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /home/xboy/Documents/GitHub/notility/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/xboy/Documents/GitHub/notility/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers_android] /home/xboy/Documents/GitHub/notility/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:audioplayers_android] /home/xboy/Documents/GitHub/notility/build/audioplayers_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_keyboard_visibility] /home/xboy/Documents/GitHub/notility/build/flutter_keyboard_visibility/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_keyboard_visibility] /home/xboy/Documents/GitHub/notility/build/flutter_keyboard_visibility/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:record_android] /home/xboy/Documents/GitHub/notility/build/record_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:record_android] /home/xboy/Documents/GitHub/notility/build/record_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/xboy/Documents/GitHub/notility/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/xboy/Documents/GitHub/notility/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /home/xboy/Documents/GitHub/notility/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /home/xboy/Documents/GitHub/notility/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/b999d05729379b348abd2dada5d1bd76/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/b999d05729379b348abd2dada5d1bd76/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/xboy/.gradle/caches/transforms-3/54098c0380bcade23ae8c96a757d3b55/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/xboy/.gradle/caches/transforms-3/54098c0380bcade23ae8c96a757d3b55/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/xboy/.gradle/caches/transforms-3/966df7c0b288b4976f850b45a0735758/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/xboy/.gradle/caches/transforms-3/966df7c0b288b4976f850b45a0735758/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/xboy/.gradle/caches/transforms-3/52da01b2268950db87a3d52f86ea7035/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/xboy/.gradle/caches/transforms-3/52da01b2268950db87a3d52f86ea7035/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /home/xboy/.gradle/caches/transforms-3/86063d7e6476c13a21bffa0628f6e7f2/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /home/xboy/.gradle/caches/transforms-3/86063d7e6476c13a21bffa0628f6e7f2/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/xboy/.gradle/caches/transforms-3/d5f462de33805ac3a7b69216f9aa9ab5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /home/xboy/.gradle/caches/transforms-3/d5f462de33805ac3a7b69216f9aa9ab5/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/xboy/.gradle/caches/transforms-3/86085b3534d64902578f290e976b4bbf/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/xboy/.gradle/caches/transforms-3/86085b3534d64902578f290e976b4bbf/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/xboy/.gradle/caches/transforms-3/f5aa2e10f33b9bd4a4679f70cae23246/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/xboy/.gradle/caches/transforms-3/f5aa2e10f33b9bd4a4679f70cae23246/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /home/xboy/.gradle/caches/transforms-3/ec582f21c763e2c0f2f37f78d814b5e7/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /home/xboy/.gradle/caches/transforms-3/ec582f21c763e2c0f2f37f78d814b5e7/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/xboy/.gradle/caches/transforms-3/3cc290559c7677786244db4663b1e427/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/xboy/.gradle/caches/transforms-3/3cc290559c7677786244db4663b1e427/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] /home/xboy/.gradle/caches/transforms-3/3d6d97b8af2f97d4a598d5f956931a22/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /home/xboy/.gradle/caches/transforms-3/3d6d97b8af2f97d4a598d5f956931a22/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/xboy/.gradle/caches/transforms-3/0631fe25a93a794f273dc1648a944417/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/xboy/.gradle/caches/transforms-3/0631fe25a93a794f273dc1648a944417/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] /home/xboy/.gradle/caches/transforms-3/5109fcd8da603131ee782c838d11c457/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /home/xboy/.gradle/caches/transforms-3/5109fcd8da603131ee782c838d11c457/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/xboy/.gradle/caches/transforms-3/392f7c6268c994cce6e5cacbe51a7e13/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/xboy/.gradle/caches/transforms-3/392f7c6268c994cce6e5cacbe51a7e13/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/xboy/.gradle/caches/transforms-3/b21569f122c02709b4d312a6d2b775a7/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/xboy/.gradle/caches/transforms-3/b21569f122c02709b4d312a6d2b775a7/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/xboy/.gradle/caches/transforms-3/4e0998490bfeee64800d29e2957926eb/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/xboy/.gradle/caches/transforms-3/4e0998490bfeee64800d29e2957926eb/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/xboy/.gradle/caches/transforms-3/095eb498852f0f31d7211c62de6fd725/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/xboy/.gradle/caches/transforms-3/095eb498852f0f31d7211c62de6fd725/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.browser:browser:1.4.0] /home/xboy/.gradle/caches/transforms-3/4d76aadac07397abe3a7d63176bb21f6/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/xboy/.gradle/caches/transforms-3/4d76aadac07397abe3a7d63176bb21f6/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/xboy/.gradle/caches/transforms-3/39930a57091edb5efb0ea35d4233086b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/xboy/.gradle/caches/transforms-3/39930a57091edb5efb0ea35d4233086b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/xboy/.gradle/caches/transforms-3/2a84455f44d31c826caef220da61ce14/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/xboy/.gradle/caches/transforms-3/2a84455f44d31c826caef220da61ce14/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/xboy/.gradle/caches/transforms-3/a25ab92955628d86995c8095232aaa09/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/xboy/.gradle/caches/transforms-3/a25ab92955628d86995c8095232aaa09/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/xboy/.gradle/caches/transforms-3/e47695ac57789e10abd316f8151b7c67/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/xboy/.gradle/caches/transforms-3/e47695ac57789e10abd316f8151b7c67/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/xboy/.gradle/caches/transforms-3/b5bdd922a02fc8982209adf842c51542/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/xboy/.gradle/caches/transforms-3/b5bdd922a02fc8982209adf842c51542/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/xboy/.gradle/caches/transforms-3/728c6a961c63d12a7a6e16b736105c6c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/xboy/.gradle/caches/transforms-3/728c6a961c63d12a7a6e16b736105c6c/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/xboy/.gradle/caches/transforms-3/9b5f88af45cb83e7ad5203149b4cee0f/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/xboy/.gradle/caches/transforms-3/9b5f88af45cb83e7ad5203149b4cee0f/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/xboy/.gradle/caches/transforms-3/bd67e855f9810b5dd5627987c33e7264/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/xboy/.gradle/caches/transforms-3/bd67e855f9810b5dd5627987c33e7264/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/xboy/.gradle/caches/transforms-3/85d8b20007a85e9f5bef2a16eb6a1455/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/xboy/.gradle/caches/transforms-3/85d8b20007a85e9f5bef2a16eb6a1455/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/xboy/.gradle/caches/transforms-3/d7c9e2de33d132d69552b2d08dc157ef/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/xboy/.gradle/caches/transforms-3/d7c9e2de33d132d69552b2d08dc157ef/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /home/xboy/.gradle/caches/transforms-3/33ca94451157706af9868a4abfa37ecf/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /home/xboy/.gradle/caches/transforms-3/33ca94451157706af9868a4abfa37ecf/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/xboy/.gradle/caches/transforms-3/e5b61f5d94735c005eb0a9e6af99682d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/xboy/.gradle/caches/transforms-3/e5b61f5d94735c005eb0a9e6af99682d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/xboy/.gradle/caches/transforms-3/04fb613c2c1d9d40abe25b96a5c20489/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/xboy/.gradle/caches/transforms-3/04fb613c2c1d9d40abe25b96a5c20489/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/xboy/.gradle/caches/transforms-3/a8b5a37814da5dbb437f7d9cb0c990bf/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/xboy/.gradle/caches/transforms-3/a8b5a37814da5dbb437f7d9cb0c990bf/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/xboy/.gradle/caches/transforms-3/439ba954fd6d4c1ef49aa565963f6683/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/xboy/.gradle/caches/transforms-3/439ba954fd6d4c1ef49aa565963f6683/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/xboy/.gradle/caches/transforms-3/e327a7bf23300b5da1f8e3a37d812227/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/xboy/.gradle/caches/transforms-3/e327a7bf23300b5da1f8e3a37d812227/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml
+activity#com.example.notility.MainActivity
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:11:9-31:20
+	android:launchMode
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:13:13-36
+	android:configChanges
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:12:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:24:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:29:27-74
+meta-data#flutterEmbedding
+ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:34:9-36:33
+	android:value
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:36:13-30
+	android:name
+		ADDED from /home/xboy/Documents/GitHub/notility/android/app/src/main/AndroidManifest.xml:35:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /home/xboy/Documents/GitHub/notility/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /home/xboy/Documents/GitHub/notility/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.INTERNET
+ADDED from [:google_sign_in_android] /home/xboy/Documents/GitHub/notility/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from [:google_sign_in_android] /home/xboy/Documents/GitHub/notility/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /home/xboy/.gradle/caches/transforms-3/7773f36f52a3f5a5d7db01984674d493/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.3] /home/xboy/.gradle/caches/transforms-3/1623913f67f26c53efd5cc95476a3152/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:13:17-116
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/xboy/.gradle/caches/transforms-3/905370d3dab651637b8835e89c66cd73/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /home/xboy/.gradle/caches/transforms-3/d95bf26adedec78c2515c1e0f37e57ba/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /home/xboy/.gradle/caches/transforms-3/6ce92f7f8bd4c079dd7ba655b4686c47/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/xboy/.gradle/caches/transforms-3/bf7a3ac1e0e5c035cce43f602f8f8814/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.3] /home/xboy/.gradle/caches/transforms-3/2400a4777e47b5e1cfe551b00dc6281e/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:36:17-109
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/xboy/.gradle/caches/transforms-3/2d69b28b2c99bedfbc24d6b045de0635/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/xboy/.gradle/caches/transforms-3/15f3b7a86f260431701a318aaccb760a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/xboy/.gradle/caches/transforms-3/094a1da3f89546186357f6c5cd111bb0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/xboy/.gradle/caches/transforms-3/94fcd2142f3f6d307766c00cc11950a4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/xboy/.gradle/caches/transforms-3/90e2da7d1316f0fbe3faa052ad4e2987/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

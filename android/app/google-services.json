@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "251131996048",
+    "project_id": "notility-5bc8d",
+    "storage_bucket": "notility-5bc8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251131996048:android:65d2481de626b61fcc7515",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLq11JmUXF822pm0wfprqCoz7T0HpIgpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
